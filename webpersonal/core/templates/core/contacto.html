@@ -1,10 +1,9 @@
-<h1>Mi Web Personal</h1>
-<ul>
-    <li><a href="/home/">Portada</a></li>
-    <li><a href="/about/">Acerca de mi</a></li>
-    <li><a href="/portfolio/">Portfolio</a></li>
-    <li><a href="/contacto/">Contacto</a></li>
-</ul>
-<h2>Estos son mis datos de contacto</h2>
-<p>Nombre y Apellido</p>
-<p>Email:</p>
+{% extends "core/base.html" %}
+
+{% block title %} Contacto {% endblock %}
+
+{% block content %}
+    <h2>Estos son mis datos de contacto</h2>
+    <p>Nombre y Apellido</p>
+    <p>Email:</p>
+{% endblock %}
