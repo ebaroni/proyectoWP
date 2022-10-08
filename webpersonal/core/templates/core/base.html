@@ -9,10 +9,10 @@
 <body>
     <h1>Mi Web Personal</h1>
 <ul>
-    <li><a href="/home/">Portada</a></li>
-    <li><a href="/about/">Acerca de mi</a></li>
-    <li><a href="/portfolio/">Portfolio</a></li>
-    <li><a href="/contacto/">Contacto</a></li>
+    <li><a href= "{% url 'home' %}">Portada</a></li>
+    <li><a href= "{% url 'about' %}">Acerca de mi</a></li>
+    <li><a href= "{% url 'portfolio' %}">Portfolio</a></li>
+    <li><a href= "{% url 'contacto' %}">Contacto</a></li>
 </ul>
 
 {% block content %}
