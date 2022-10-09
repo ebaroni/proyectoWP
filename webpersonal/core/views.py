@@ -31,8 +31,8 @@ def portfolio(request):
 #        """<h2>Este es mi Portfolio</h2>
 #            <p>Proyectos""")
 
-def contacto(request):
-    return render(request, "core/contacto.html")
+def contact(request):
+    return render(request, "core/contact.html")
 #    return HttpResponse(html_base + 
 #       """<h2>Estos son mis datos de contacto</h2>
 #            <p>Mail</p>
