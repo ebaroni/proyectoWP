@@ -1,8 +1,15 @@
 {% extends "core/base.html" %}
 
-{% block title %} Inicio {% endblock %}
+{% block title %} Portada {% endblock %}
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+{% block headers %} 
+    <h1>Carlos Arroyo Díaz</h1>
+    <span class="subheading">Ingeniero Informático</span>
+{% endblock %}
 
 {% block content %}
-    <h2>Portada</h2>
-    <p>Esto es la portada</p>
+<div class="row">  
+    <h1>Portada</h1>
+    <p>Esta es la portada<p>
+</div>  
 {% endblock %}
