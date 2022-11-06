@@ -25,8 +25,8 @@ def about(request):
 #            <p>Soy Esteban</p> """)
 
 
-def portfolio(request):
-    return render(request, "core/portfolio.html")
+#def portfolio(request):
+#    return render(request, "core/portfolio.html")
 #    return HttpResponse(html_base + 
 #        """<h2>Este es mi Portfolio</h2>
 #            <p>Proyectos""")
